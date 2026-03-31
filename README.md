@@ -1,5 +1,3 @@
-# Scientific-Calculator-using-JAVA-and-XML
-
 # Scientific Calculator using JAVA and XML 📱
 
 A robust, professional-grade Android scientific calculator built natively. This application features a custom-built mathematical expression parser capable of handling complex string-based equations without relying on external evaluation libraries.
