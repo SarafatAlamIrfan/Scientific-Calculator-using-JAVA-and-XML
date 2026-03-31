@@ -43,3 +43,5 @@ UI Layout: XML (GridLayout, LinearLayout)
 Environment: Android Studio
 
 Minimum SDK: API 21+
+
+Developed by Md Sarafat Alam Mozumder
