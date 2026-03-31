@@ -17,7 +17,6 @@ A robust, professional-grade Android scientific calculator built natively. This 
 <p align="center">
   <img src="screenshots/calculator_ui.png" width="300" alt="Calculator UI">
 </p>
-*(Note: Create a folder named `screenshots` in this repo and upload your UI image as `calculator_ui.png` to display it here)*
 
 ## 🚀 How to Install
 
