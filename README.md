@@ -13,10 +13,6 @@ A robust, professional-grade Android scientific calculator built with Java and X
 * **Custom Parser:** Safely parses and evaluates nested parentheses and order of operations using a recursive descent parsing algorithm.
 * **Modern UI:** Sleek, high-contrast dark mode interface inspired by flagship native calculators.
 
-## 📸 Screenshots
-<p align="center">
-  <img src="screenshots/calculator_ui.png" width="300">
-</p>
 
 ## 🚀 How to Install and Run
 1. Clone the repository: 
