@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|end"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="72sp"
+        android:padding="16dp"
+        android:maxLines="2" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="4"
+        android:layout_marginBottom="4dp">
+
+        <Button android:text="SIN" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="12sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="COS" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="12sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="TAN" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="12sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="LOG" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="12sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="LN" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="12sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+
+        <Button android:text="SIN⁻¹" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="12sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="COS⁻¹" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="12sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="TAN⁻¹" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="12sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="√" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="16sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="X²" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="16sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+
+        <Button android:text="Xʸ" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="16sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="1/X" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="14sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="N!" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="16sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="π" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="16sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="e" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="16sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+
+        <Button android:text="C" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#A5A5A5" android:textColor="#000000" android:textSize="16sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="(" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="16sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text=")" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="16sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="%" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#B0B0B0" android:textSize="16sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+        <Button android:text="DEL" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#A5A5A5" android:textColor="#000000" android:textSize="14sp" android:insetLeft="0dp" android:insetRight="0dp" android:minWidth="0dp" android:padding="0dp" android:maxLines="1"/>
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="4">
+
+        <Button android:text="7" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#333333" android:textColor="#FFFFFF" android:textSize="28sp"/>
+        <Button android:text="8" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#333333" android:textColor="#FFFFFF" android:textSize="28sp"/>
+        <Button android:text="9" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#333333" android:textColor="#FFFFFF" android:textSize="28sp"/>
+        <Button android:text="÷" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#FFFFFF" android:textSize="32sp"/>
+
+        <Button android:text="4" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#333333" android:textColor="#FFFFFF" android:textSize="28sp"/>
+        <Button android:text="5" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#333333" android:textColor="#FFFFFF" android:textSize="28sp"/>
+        <Button android:text="6" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#333333" android:textColor="#FFFFFF" android:textSize="28sp"/>
+        <Button android:text="×" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#FFFFFF" android:textSize="32sp"/>
+
+        <Button android:text="1" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#333333" android:textColor="#FFFFFF" android:textSize="28sp"/>
+        <Button android:text="2" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#333333" android:textColor="#FFFFFF" android:textSize="28sp"/>
+        <Button android:text="3" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#333333" android:textColor="#FFFFFF" android:textSize="28sp"/>
+        <Button android:text="-" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#FFFFFF" android:textSize="36sp"/>
+
+        <Button android:text="." android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#333333" android:textColor="#FFFFFF" android:textSize="28sp"/>
+        <Button android:text="0" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#333333" android:textColor="#FFFFFF" android:textSize="28sp"/>
+        <Button android:text="=" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#FFFFFF" android:textSize="32sp"/>
+        <Button android:text="+" android:onClick="onButtonClick" android:layout_width="0dp" android:layout_height="75dp" android:layout_columnWeight="1" android:layout_margin="2dp" android:backgroundTint="#2B2B2B" android:textColor="#FFFFFF" android:textSize="32sp"/>
+
+    </GridLayout>
+
+</LinearLayout>
